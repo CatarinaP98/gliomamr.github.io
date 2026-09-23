@@ -27,7 +27,7 @@ The Education Task Force promotes learning and capacity building within the GliM
             alt="Teresa Nunes">
                 <h3>Teresa Nunes</h3>
             <div class="leader-affiliation">
-            ULS Almada-Seixal • Lisbon, Portugal
+            ULS Almada-Seixal • Almada, Portugal
             </div>
     </div>
     <div class="leader-card">
