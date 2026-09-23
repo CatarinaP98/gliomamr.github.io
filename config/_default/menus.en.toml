@@ -105,7 +105,7 @@
 
 [[main]]
   name = "Join GliMR"
-  url = "https://docs.google.com/forms/d/e/1FAIpQLSeHGNkLZM74KGkncOEuyyunSrWrM4hd27-1uBPptc8p9JLDvg/viewform?pli=1"
+  pageRef = "join"
   weight = 50
 
 [[main]]
