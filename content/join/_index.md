@@ -1,5 +1,5 @@
 ---
-banner: "/Images/banners/join.png"
+banner: "/Images/banners/banner_join.png"
 ---
 
 <p>
