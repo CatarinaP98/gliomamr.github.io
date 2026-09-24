@@ -583,6 +583,42 @@
     background: #da3a22;
     color: white;
 }
+
+@media (max-width: 768px) {
+
+    .glance-benefits {
+        grid-template-columns: 1fr;
+        max-width: 340px;
+        gap: 14px;
+        margin: 16px auto 30px auto;
+    }
+
+    .glance-benefits .join-benefit {
+        width: 100%;
+        padding: 18px 16px;
+    }
+
+    .glance-number {
+        font-size: 1.7rem;
+        margin-bottom: 5px;
+    }
+
+    .glance-benefits .join-benefit h3 {
+        font-size: 1rem;
+        margin-bottom: 7px;
+    }
+
+    .glance-benefits .join-benefit p {
+        font-size: 0.88rem;
+        line-height: 1.4;
+        max-width: 280px;
+    }
+
+    .glance-benefits .glance-button {
+        margin-top: 14px;
+    }
+}
+``
 /* ========================================
    EXPLORE GLIMR
 ======================================== */
