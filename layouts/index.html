@@ -82,7 +82,7 @@
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: -0.01em;
-    margin-top: 3.5rem;
+    margin-top: 1rem;
     margin-bottom: 1rem;
 }
 
@@ -126,10 +126,8 @@ document.addEventListener("DOMContentLoaded", function() {
 
 </script>
 
-</script>
-
 <div class="homepage-content">
-    {{ .Content }}
+    {{ .Content | safeHTML }}
 </div>
 
 <section class="latest-bluesky">
