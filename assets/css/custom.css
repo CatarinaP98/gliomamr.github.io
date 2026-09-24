@@ -619,7 +619,7 @@
     font-size: 0.9rem;
     line-height: 1.7;
     max-width: 3200px;
-    margin: 0 auto 20px auto;
+    margin: 0 auto 1px auto;
     text-align: center;
 }
 
@@ -641,5 +641,83 @@
 
     .explore-grid .join-benefit {
         padding: 20px 16px;
+    }
+}
+/* ========================================
+   HOMEPAGE - LATEST NEWS
+======================================== */
+
+.bluesky-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.bluesky-card {
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    padding: 20px;
+    height: 550px;
+    overflow: hidden;
+    transition: all 0.2s ease;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.bluesky-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.10);
+}
+
+.bluesky-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+
+    padding: 8px 14px;
+    border: 1px solid #da3a22;
+    color: #da3a22;
+    background: white;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+.bluesky-button:hover {
+    background: #d85c48;
+    color: white;
+}
+
+.bluesky-footer {
+    text-align: right;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+.latest-bluesky h2 {
+    color: #1b1c15;
+    font-size: 2.2rem;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: -0.01em;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.latest-bluesky h2::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 4px;
+    background: #da3a22;
+    margin-top: 10px;
+    border-radius: 2px;
+}
+
+@media (max-width: 900px) {
+    .bluesky-grid {
+        grid-template-columns: 1fr;
     }
 }
